@@ -9,7 +9,7 @@ const Services: FC = () => {
   const tw = useTailwind();
   return (
     <Layout>
-      <Text style={tw('text-center text-lg mb-6')}>Moscow</Text>
+      <Text style={tw('text-center text-lg mb-6')}>Minsk</Text>
       <View style={tw('flex-row flex-wrap justify-center')}>
         {services.map(service => (
           <ServiceItem key={service.title} service={service} />

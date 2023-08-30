@@ -8,7 +8,6 @@ import {useAccounts} from '../../home/accounts/useAccounts';
 
 const ContactItem: FC<{contact: IContact}> = ({contact}) => {
   const {accounts} = useAccounts();
-  console.log(contact.cardNumber);
 
   const tw = useTailwind();
   return (
